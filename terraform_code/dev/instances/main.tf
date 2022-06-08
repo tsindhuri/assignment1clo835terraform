@@ -112,6 +112,6 @@ resource "aws_eip" "static_eip" {
 }
 
 resource "aws_ecr_repository" "foo" {
-  name                 = "bar"
+  name                 = "tsindhuriecr"
   image_tag_mutability = "MUTABLE"
 }
